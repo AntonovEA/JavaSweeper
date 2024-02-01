@@ -9,41 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4d54782-f2c3-4ac0-8549-6f3d3a279ae1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/JavaSweeper2000_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaSweeper2000.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/img/bomb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/img/bombed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/img/closed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/img/flaged.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/img/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/img/inform.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/img/nobomb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/img/num1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/img/num2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/img/num3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/img/num4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/img/num5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/img/num6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/img/num7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/img/num8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/img/opened.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/res/img/zero.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaSweeper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sweeper/Bomb.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sweeper/Box.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sweeper/Coord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sweeper/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sweeper/Matrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sweeper/Ranges.java" afterDir="false" />
-    </list>
+    <list default="true" id="a4d54782-f2c3-4ac0-8549-6f3d3a279ae1" name="Changes" comment="map, res, bomb" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -92,6 +58,14 @@
       <option name="presentableId" value="Default" />
       <updated>1706804941595</updated>
     </task>
+    <task id="LOCAL-00001" summary="map, res, bomb">
+      <created>1706823257917</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1706823257917</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -107,5 +81,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="map, res, bomb" />
+    <option name="LAST_COMMIT_MESSAGE" value="map, res, bomb" />
   </component>
 </project>
