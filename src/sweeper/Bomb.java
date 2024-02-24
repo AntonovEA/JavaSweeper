@@ -7,16 +7,24 @@ public class Bomb {
     Bomb(int totalBombs) {
         this.totalBombs = totalBombs;
     }
-    void start(){
-        bombMap=new Matrix(Box.zero);
-        placeBomb();
+
+    void start() {
+        bombMap = new Matrix(Box.zero);
+        for (int i = 0; i < totalBombs; i++) {
+            placeBomb();
+
+        }
 
     }
-    Box get (Coord coord){
+
+    Box get(Coord coord) {
         return bombMap.get(coord);
     }
 
-    private void placeBomb(){
-        bombMap.set(new Coord(4,4), Box.bomb);
+    private void placeBomb() {
+        Coord coord=Ranges.getRandomCoord();
+        bombMap.set(coord, Box.bomb);
+        for (Coord around:Ranges.getCoordsAround(coord))
+            bombMap.set (around, Box.num1);
     }
 }
