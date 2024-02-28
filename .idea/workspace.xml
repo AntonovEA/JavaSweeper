@@ -9,12 +9,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4d54782-f2c3-4ac0-8549-6f3d3a279ae1" name="Changes" comment="map, res, bomb, all bomb place, num1 around bomb">
-      <change afterPath="$PROJECT_DIR$/src/sweeper/Flag.java" afterDir="false" />
+    <list default="true" id="a4d54782-f2c3-4ac0-8549-6f3d3a279ae1" name="Changes" comment="map, res, bomb, all bomb place, num1 around bomb. all num, class flag, left button">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/JavaSweeper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaSweeper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sweeper/Bomb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sweeper/Bomb.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sweeper/Box.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sweeper/Box.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sweeper/Flag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sweeper/Flag.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sweeper/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sweeper/Game.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -93,7 +91,14 @@
       <option name="project" value="LOCAL" />
       <updated>1708794273881</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="map, res, bomb, all bomb place, num1 around bomb. all num, class flag, left button">
+      <created>1709055453751</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1709055453751</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -111,6 +116,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="map, res, bomb" />
     <MESSAGE value="map, res, bomb, all bomb place, num1 around bomb" />
-    <option name="LAST_COMMIT_MESSAGE" value="map, res, bomb, all bomb place, num1 around bomb" />
+    <MESSAGE value="map, res, bomb, all bomb place, num1 around bomb. all num, class flag, left button" />
+    <option name="LAST_COMMIT_MESSAGE" value="map, res, bomb, all bomb place, num1 around bomb. all num, class flag, left button" />
   </component>
 </project>

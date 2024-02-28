@@ -52,6 +52,10 @@ public class JavaSweeper extends JFrame {
                 Coord coord = new Coord(x, y);
         if (e.getButton()==MouseEvent.BUTTON1)
             game.pressLeftButton(coord);
+        if (e.getButton()==MouseEvent.BUTTON3)
+            game.pressRightButton(coord);
+        if (e.getButton()==MouseEvent.BUTTON2)
+            game.start();
         panel.repaint();
 
             }
@@ -63,11 +67,12 @@ public class JavaSweeper extends JFrame {
     private void initFrame() {
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         setTitle("JavaSweeper");
-        setLocationRelativeTo(null);
         setResizable(false);
         setVisible(true);
-        setIconImage(getImage("icon"));
         pack();
+        setLocationRelativeTo(null);
+        setIconImage(getImage("icon"));
+
 
     }
 
