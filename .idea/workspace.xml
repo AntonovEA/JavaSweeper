@@ -9,9 +9,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4d54782-f2c3-4ac0-8549-6f3d3a279ae1" name="Changes" comment="map, res, bomb, all bomb place, num1 around bomb. all num, class flag, left button">
+    <list default="true" id="a4d54782-f2c3-4ac0-8549-6f3d3a279ae1" name="Changes" comment="map, res, bomb, all bomb place, num1 around bomb. all num, class flag, left button. all button, fix.">
+      <change afterPath="$PROJECT_DIR$/src/sweeper/GameState.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/JavaSweeper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaSweeper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sweeper/Bomb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sweeper/Bomb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sweeper/Box.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sweeper/Box.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sweeper/Flag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sweeper/Flag.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sweeper/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sweeper/Game.java" afterDir="false" />
     </list>
@@ -23,8 +26,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -98,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1709055453751</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="map, res, bomb, all bomb place, num1 around bomb. all num, class flag, left button. all button, fix.">
+      <created>1709131642033</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1709131642033</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -117,6 +127,7 @@
     <MESSAGE value="map, res, bomb" />
     <MESSAGE value="map, res, bomb, all bomb place, num1 around bomb" />
     <MESSAGE value="map, res, bomb, all bomb place, num1 around bomb. all num, class flag, left button" />
-    <option name="LAST_COMMIT_MESSAGE" value="map, res, bomb, all bomb place, num1 around bomb. all num, class flag, left button" />
+    <MESSAGE value="map, res, bomb, all bomb place, num1 around bomb. all num, class flag, left button. all button, fix." />
+    <option name="LAST_COMMIT_MESSAGE" value="map, res, bomb, all bomb place, num1 around bomb. all num, class flag, left button. all button, fix." />
   </component>
 </project>

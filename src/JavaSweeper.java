@@ -12,6 +12,8 @@ public class JavaSweeper extends JFrame {
     private Game game;
 
     private JPanel panel;
+    private JLabel label;
+
     private final int cols = 9;
     private final int rows = 9;
     private final int bombs = 10;
@@ -27,8 +29,16 @@ public class JavaSweeper extends JFrame {
         game = new Game(cols, rows, bombs);
         game.start();
         setImages();
+        initLabel();
         initPanel();
         initFrame();
+
+    }
+
+    private void initLabel() {
+        label = new JLabel("Welcome!");
+        add(label, BorderLayout.SOUTH);
+
     }
 
     private void initPanel() {
@@ -50,18 +60,30 @@ public class JavaSweeper extends JFrame {
                 int x = e.getX() / image_size;
                 int y = e.getY() / image_size;
                 Coord coord = new Coord(x, y);
-        if (e.getButton()==MouseEvent.BUTTON1)
-            game.pressLeftButton(coord);
-        if (e.getButton()==MouseEvent.BUTTON3)
-            game.pressRightButton(coord);
-        if (e.getButton()==MouseEvent.BUTTON2)
-            game.start();
-        panel.repaint();
+                if (e.getButton() == MouseEvent.BUTTON1)
+                    game.pressLeftButton(coord);
+                if (e.getButton() == MouseEvent.BUTTON3)
+                    game.pressRightButton(coord);
+                if (e.getButton() == MouseEvent.BUTTON2)
+                    game.start();
+                label.setText(getMessage());
+                panel.repaint();
 
             }
         });
         panel.setPreferredSize(new Dimension(Ranges.getSize().x * image_size, Ranges.getSize().y * image_size));
         add(panel);
+    }
+
+    private String getMessage() {
+        switch (game.getState()){
+            case played : return "Think twice!";
+            case bombed:return "HAHAHAHHAHA!";
+            case winner:return "AAAAGGRRHHHHH!!";
+            default:return "WHHAAAAAAAATT????";
+
+
+        }
     }
 
     private void initFrame() {
